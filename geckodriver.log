@@ -926,3 +926,20 @@ Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpa
 1509638653374	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1509638654516	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
 1509638654715	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509640312208	geckodriver	INFO	geckodriver 0.19.0
+1509640312218	geckodriver	INFO	Listening on 127.0.0.1:64798
+1509640314285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.qm5qqv44RjBS"
+1509640314918	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509640316677	Marionette	INFO	Listening on port 64811
+1509640317396	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509640317447	Marionette	DEBUG	Register listener.js for window 4294967297
+1509640317492	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509640318636	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509640318636	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509640319762	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509640320073	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

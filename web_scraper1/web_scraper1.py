@@ -22,8 +22,9 @@ driver.get(url)
 
 try:
     # returns vet surgeon name ('item-title') from search results, as text
-    name = driver.find_element_by_xpath("//h3[contains(@class, 'item-title')]")
-    print(name.text)
+    all_names = driver.find_elements_by_xpath("//h3[contains(@class, 'item-title')]")
+    for name in all_names:
+        print(name.text)
 
 except Exception:
     print("An error has occurred.")

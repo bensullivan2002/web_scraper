@@ -469,3 +469,18 @@ Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpa
 1509632280743	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1509632281565	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
 1509632282004	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509638997648	geckodriver	INFO	geckodriver 0.19.0
+1509638997658	geckodriver	INFO	Listening on 127.0.0.1:60573
+1509638999739	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.putxRvTcL9fN"
+1509639000361	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509639002041	Marionette	INFO	Listening on port 60589
+1509639002872	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509639002934	Marionette	DEBUG	Register listener.js for window 4294967297
+1509639002965	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509639004937	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509639004938	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509639006450	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509639007367	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
