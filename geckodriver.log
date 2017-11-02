@@ -551,3 +551,378 @@ Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpa
 1509633883978	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1509633884874	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
 1509633885194	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509634645949	geckodriver	INFO	geckodriver 0.19.0
+1509634645959	geckodriver	INFO	Listening on 127.0.0.1:61295
+1509634648046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.0hn6AAoY3BrR"
+1509634648675	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509634650397	Marionette	INFO	Listening on port 61309
+1509634651177	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509634651236	Marionette	DEBUG	Register listener.js for window 4294967297
+1509634651257	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509634651925	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509634651926	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509634652755	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist13=true"
+1509634653050	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist13=true"
+1509634741332	geckodriver	INFO	geckodriver 0.19.0
+1509634741342	geckodriver	INFO	Listening on 127.0.0.1:61640
+1509634743430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.A7gipKDRGGrz"
+1509634744098	Marionette	INFO	Enabled via --marionette
+1509634745772	Marionette	INFO	Listening on port 61653
+1509634746556	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509634746632	Marionette	DEBUG	Register listener.js for window 4294967297
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+1509635224553	geckodriver	INFO	geckodriver 0.19.0
+1509635224563	geckodriver	INFO	Listening on 127.0.0.1:63224
+1509635226649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.hrrxuy1uyBjf"
+1509635227282	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509635228990	Marionette	INFO	Listening on port 63237
+1509635229772	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509635229841	Marionette	DEBUG	Register listener.js for window 4294967297
+1509635229870	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509635231423	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509635231423	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509635232582	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635232975	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635434017	geckodriver	INFO	geckodriver 0.19.0
+1509635434029	geckodriver	INFO	Listening on 127.0.0.1:63947
+1509635436078	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.lbDTMgF8WCHi"
+1509635436765	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509635438583	Marionette	INFO	Listening on port 63958
+1509635439188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509635439242	Marionette	DEBUG	Register listener.js for window 4294967297
+1509635439262	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509635439888	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509635439888	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509635440941	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635441210	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635463445	geckodriver	INFO	geckodriver 0.19.0
+1509635463456	geckodriver	INFO	Listening on 127.0.0.1:64085
+1509635465529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.2hqurbhyFRpZ"
+1509635466189	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509635467986	Marionette	INFO	Listening on port 64098
+1509635468651	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509635468731	Marionette	DEBUG	Register listener.js for window 4294967297
+1509635468762	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509635469380	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509635469380	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509635470785	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635471040	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635499109	geckodriver	INFO	geckodriver 0.19.0
+1509635499119	geckodriver	INFO	Listening on 127.0.0.1:64252
+1509635501210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.Ak9f75IejzBM"
+1509635501855	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509635503620	Marionette	INFO	Listening on port 64266
+1509635504351	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509635504425	Marionette	DEBUG	Register listener.js for window 4294967297
+1509635504467	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509635505053	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509635505054	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509635505955	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635506381	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635519085	geckodriver	INFO	geckodriver 0.19.0
+1509635519095	geckodriver	INFO	Listening on 127.0.0.1:64365
+1509635521145	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.9gvahfWCGoYu"
+1509635521788	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509635523525	Marionette	INFO	Listening on port 64379
+1509635524269	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509635524341	Marionette	DEBUG	Register listener.js for window 4294967297
+1509635524370	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509635525115	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509635525115	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509635526269	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635526516	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635872208	geckodriver	INFO	geckodriver 0.19.0
+1509635872218	geckodriver	INFO	Listening on 127.0.0.1:49222
+1509635874278	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.UQWVlv0IsG9i"
+1509635874925	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509635876722	Marionette	INFO	Listening on port 49235
+1509635877398	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509635877462	Marionette	DEBUG	Register listener.js for window 4294967297
+1509635877494	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509635878299	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509635878301	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509635879100	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635879499	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635945645	geckodriver	INFO	geckodriver 0.19.0
+1509635945656	geckodriver	INFO	Listening on 127.0.0.1:49777
+1509635947735	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.wAe3k2adaEGx"
+1509635948399	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509635950217	Marionette	INFO	Listening on port 49789
+1509635950850	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509635950925	Marionette	DEBUG	Register listener.js for window 4294967297
+1509635950956	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509635951709	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509635951709	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509635952443	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635953059	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 464
+1509635963802	geckodriver	INFO	geckodriver 0.19.0
+1509635963812	geckodriver	INFO	Listening on 127.0.0.1:49892
+1509635965875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.zZjOfAa4xhY8"
+1509635966524	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509635968258	Marionette	INFO	Listening on port 49909
+1509635968996	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509635969050	Marionette	DEBUG	Register listener.js for window 4294967297
+1509635969088	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509635970346	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509635970346	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509635971240	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635971568	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635988124	geckodriver	INFO	geckodriver 0.19.0
+1509635988134	geckodriver	INFO	Listening on 127.0.0.1:50027
+1509635990197	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.auE6rcXsYoxw"
+1509635990846	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509635992620	Marionette	INFO	Listening on port 50039
+1509635993323	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509635993407	Marionette	DEBUG	Register listener.js for window 4294967297
+1509635993428	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509635995448	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509635995448	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509635996356	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509635997107	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509636056894	geckodriver	INFO	geckodriver 0.19.0
+1509636056907	geckodriver	INFO	Listening on 127.0.0.1:50292
+1509636058980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.3EsCkMxRsUfV"
+1509636059638	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509636061424	Marionette	INFO	Listening on port 50304
+1509636062098	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509636062168	Marionette	DEBUG	Register listener.js for window 4294967297
+1509636062204	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509636063131	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509636063132	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509636063837	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509636064187	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637205271	geckodriver	INFO	geckodriver 0.19.0
+1509637205280	geckodriver	INFO	Listening on 127.0.0.1:54177
+1509637207374	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.vxhtmjhir69G"
+1509637208127	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509637209917	Marionette	INFO	Listening on port 54189
+1509637210485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509637210536	Marionette	DEBUG	Register listener.js for window 4294967297
+1509637210567	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509637212242	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509637212242	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509637213374	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637213726	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637294435	geckodriver	INFO	geckodriver 0.19.0
+1509637294444	geckodriver	INFO	Listening on 127.0.0.1:54503
+1509637296516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.52BehzSbLbh7"
+1509637297259	Marionette	INFO	Enabled via --marionette
+1509637299075	Marionette	INFO	Listening on port 54517
+1509637299646	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509637299734	Marionette	DEBUG	Register listener.js for window 4294967297
+1509637299753	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509637301058	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509637301058	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509637302382	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637302719	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 14072, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509637494101	geckodriver	INFO	geckodriver 0.19.0
+1509637494111	geckodriver	INFO	Listening on 127.0.0.1:55163
+1509637496191	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.lhJpGe1qYYl8"
+1509637496918	Marionette	INFO	Enabled via --marionette
+1509637498610	Marionette	INFO	Listening on port 55176
+1509637499317	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509637499402	Marionette	DEBUG	Register listener.js for window 4294967297
+1509637499431	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509637500076	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509637500076	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509637502085	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637502370	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637632707	geckodriver	INFO	geckodriver 0.19.0
+1509637632716	geckodriver	INFO	Listening on 127.0.0.1:55696
+1509637634779	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.zi1WDkXd9ar2"
+1509637635425	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509637637161	Marionette	INFO	Listening on port 55708
+1509637637913	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509637638000	Marionette	DEBUG	Register listener.js for window 4294967297
+1509637638028	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509637639341	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509637639341	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509637640441	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637640754	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509637681142	geckodriver	INFO	geckodriver 0.19.0
+1509637681152	geckodriver	INFO	Listening on 127.0.0.1:55891
+1509637683223	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.R3CWMdNIQeku"
+1509637683973	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509637685713	Marionette	INFO	Listening on port 55904
+1509637686342	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509637686395	Marionette	DEBUG	Register listener.js for window 4294967297
+1509637686425	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509637687040	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509637687041	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509637688121	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637688403	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637762959	geckodriver	INFO	geckodriver 0.19.0
+1509637762969	geckodriver	INFO	Listening on 127.0.0.1:56191
+1509637765024	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.0MhNhtnqhD2o"
+1509637765767	Marionette	INFO	Enabled via --marionette
+1509637767437	Marionette	INFO	Listening on port 56205
+1509637768137	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509637768197	Marionette	DEBUG	Register listener.js for window 4294967297
+1509637768227	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509637768891	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509637768892	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509637769984	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637770400	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 464
+1509637829218	geckodriver	INFO	geckodriver 0.19.0
+1509637829229	geckodriver	INFO	Listening on 127.0.0.1:56446
+1509637831291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.SshhuLSm0iFr"
+1509637832039	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 5180, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509637833785	Marionette	INFO	Listening on port 56458
+1509637834413	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509637834501	Marionette	DEBUG	Register listener.js for window 4294967297
+1509637834521	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509637835203	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509637835204	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509637836267	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637836635	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637934248	geckodriver	INFO	geckodriver 0.19.0
+1509637934257	geckodriver	INFO	Listening on 127.0.0.1:56825
+1509637936325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.1tDOgCAmHfVC"
+1509637937063	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509637938832	Marionette	INFO	Listening on port 56838
+1509637939448	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509637939498	Marionette	DEBUG	Register listener.js for window 4294967297
+1509637939517	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509637940121	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509637940121	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509637941234	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637941581	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509637998821	geckodriver	INFO	geckodriver 0.19.0
+1509637998830	geckodriver	INFO	Listening on 127.0.0.1:57079
+1509638000918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.qgLXB64huuhU"
+1509638001661	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509638003313	Marionette	INFO	Listening on port 57092
+1509638004045	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509638004110	Marionette	DEBUG	Register listener.js for window 4294967297
+1509638004130	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509638005909	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509638005910	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509638007023	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509638007719	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509638045486	geckodriver	INFO	geckodriver 0.19.0
+1509638045495	geckodriver	INFO	Listening on 127.0.0.1:57276
+1509638047594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.9DNUSTNd0JGO"
+1509638048285	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509638049938	Marionette	INFO	Listening on port 57288
+1509638050715	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509638050791	Marionette	DEBUG	Register listener.js for window 4294967297
+1509638050811	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509638051409	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509638051409	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509638052486	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509638052797	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509638066288	geckodriver	INFO	geckodriver 0.19.0
+1509638066302	geckodriver	INFO	Listening on 127.0.0.1:57387
+1509638068373	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.YZ7FWQcqL1FH"
+1509638069030	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509638070723	Marionette	INFO	Listening on port 57400
+1509638071501	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509638071594	Marionette	DEBUG	Register listener.js for window 4294967297
+1509638071619	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509638072296	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509638072297	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509638073396	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509638073628	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509638623550	geckodriver	INFO	geckodriver 0.19.0
+1509638623560	geckodriver	INFO	Listening on 127.0.0.1:59236
+1509638625642	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.WELH6rDhtLSA"
+1509638626277	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509638627994	Marionette	INFO	Listening on port 59248
+1509638628760	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509638628828	Marionette	DEBUG	Register listener.js for window 4294967297
+1509638628848	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509638629490	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509638629491	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509638630573	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509638630882	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509638647314	geckodriver	INFO	geckodriver 0.19.0
+1509638647324	geckodriver	INFO	Listening on 127.0.0.1:59358
+1509638649398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\bens\\AppData\\Local\\Temp\\rust_mozprofile.8Vzd2SP3qnMu"
+1509638650011	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\bens\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509638651709	Marionette	INFO	Listening on port 59370
+1509638652512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509638652570	Marionette	DEBUG	Register listener.js for window 4294967297
+1509638652597	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509638653374	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509638653374	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509638654516	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
+1509638654715	Marionette	DEBUG	Received DOM event "pageshow" for "https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist5=true"
