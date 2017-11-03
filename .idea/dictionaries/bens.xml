@@ -3,6 +3,9 @@
     <words>
       <w>geckodriver</w>
       <w>livingsocial</w>
+      <w>lxml</w>
+      <w>rcvs</w>
+      <w>xlsx</w>
     </words>
   </dictionary>
 </component>
