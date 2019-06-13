@@ -14,7 +14,7 @@ elif search_string == "diagnostic imaging":
     https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&specialist13=true"""
 
 # Allows Selenium to take control of Firefox
-driver = webdriver.Firefox(executable_path=r"geckodriver.exe")
+driver = webdriver.Firefox(executable_path=r"C:\Users\bens\Documents\geckodriver-v0.24.0-win64\geckodriver.exe")
 
 driver.get(url)
 
