@@ -30,7 +30,7 @@ for i in range(1,6):
         print('Request: {}; Frequency: {} Requests/s;'.format(request_count, request_count / elapsed_time))
         clear_output(wait=True)    
         
-        html_soup = BeautifulSoup(response.text, 'lxml')
+        html_soup = BeautifulSoup(response.text, "lxml")
 
         result_containers = html_soup.find_all('div', class_='item item--fav item--surgeon')
         specialism = html_soup.find_all('div', class_='item-additional')
