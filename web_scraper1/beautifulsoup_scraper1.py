@@ -16,45 +16,42 @@ specialist_areas = []
 start_time = time()
 request_count = 1
 
-for i in range(1,6):
+url = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist5=true'
 
-    if i == 1:
-    
-        url = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist5=true&%p='
+response = get(url)
 
-        response = get(url)
+sleep(randint(1, 3))
 
-        sleep(randint(1, 3))
+elapsed_time = time() - start_time
+print('Request: {}; Frequency: {} Requests/s;'.format(request_count, request_count / elapsed_time))
+clear_output(wait=True)    
 
-        elapsed_time = time() - start_time
-        print('Request: {}; Frequency: {} Requests/s;'.format(request_count, request_count / elapsed_time))
-        clear_output(wait=True)    
-        
-        html_soup = BeautifulSoup(response.text, 'lxml')
+html_soup = BeautifulSoup(response.text, 'lxml')
 
-        result_containers = html_soup.find_all('div', class_='item item--fav item--surgeon')
-        specialism = html_soup.find_all('div', class_='item-additional')
+result_containers = html_soup.find_all('div', class_='item item--fav item--surgeon')
+specialism = html_soup.find_all('div', class_='item-additional')
 
-        for container in result_containers:
-            name = container.div.h3.a.text
-            names.append(name)
+for container in result_containers:
+    name = container.div.h3.a.text
+    names.append(name)
 
-            qualification = container.div.span.text
-            qualifications.append(qualification)
+    qualification = container.div.span.text
+    qualifications.append(qualification)
 
-        for container in specialism:
-            speciality = container.li.text
-            specialist_areas.append(speciality)    
-        
-        from pandas import ExcelWriter
-        test_df = pd.DataFrame({'Name': names,
-        'Qualifications': qualifications,
-        'Specialist in:': specialist_areas})
-        print(test_df.info())
+for container in specialism:
+    speciality = container.li.text
+    specialist_areas.append(speciality)    
 
-    else:
+from pandas import ExcelWriter
+test_df = pd.DataFrame({'Name': names,
+'Qualifications': qualifications,
+'Specialist in:': specialist_areas})
+print(test_df.info())
 
-        url = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist5=true&%p=' + str(i)
+
+for i in range(2,6):
+
+        url = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist5=true&p=' + str(i)
 
         response = get(url)
 
@@ -86,6 +83,6 @@ for i in range(1,6):
         'Specialist in:': specialist_areas})
         print(test_df.info())
     
-writer = pd.ExcelWriter('beautiful_soup_output.xlsx')
-test_df.to_excel(writer, 'Cardiologists')
-writer.save()
+with pd.ExcelWriter('beautiful_soup_output.xlsx') as writer:
+    test_df.to_excel(writer, 'Cardiologists')
+    writer.save()
