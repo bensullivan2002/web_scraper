@@ -2,6 +2,7 @@ from requests import get
 from bs4 import BeautifulSoup
 import pandas as pd
 from IPython.core.display import clear_output
+from pandas import ExcelWriter
 
 # This block introduces a wait to crawl through multiple search result pages to reduce risk of having IP blocked!
 from random import randint
@@ -16,73 +17,54 @@ specialist_areas = []
 start_time = time()
 request_count = 1
 
-url = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist5=true'
+# moved the logic to get the data into a function. Since the only variable here is URL, we'll pass that in.
+# Function returns a dataframe with the salient data
+def getVets(url):
 
-response = get(url)
+    response = get(url)
 
-sleep(randint(1, 3))
+    sleep(randint(1, 3))
 
-elapsed_time = time() - start_time
-print('Request: {}; Frequency: {} Requests/s;'.format(request_count, request_count / elapsed_time))
-clear_output(wait=True)    
+    elapsed_time = time() - start_time
+    print('Request: {}; Frequency: {} Requests/s;'.format(request_count, request_count / elapsed_time))
+    clear_output(wait=True)    
 
-html_soup = BeautifulSoup(response.text, 'lxml')
+    html_soup = BeautifulSoup(response.text, 'lxml')
 
-result_containers = html_soup.find_all('div', class_='item item--fav item--surgeon')
-specialism = html_soup.find_all('div', class_='item-additional')
+    result_containers = html_soup.find_all('div', class_='item item--fav item--surgeon')
+    specialism = html_soup.find_all('div', class_='item-additional')
 
-for container in result_containers:
-    name = container.div.h3.a.text
-    names.append(name)
+    for container in result_containers:
+        name = container.div.h3.a.text
+        names.append(name)
 
-    qualification = container.div.span.text
-    qualifications.append(qualification)
+        qualification = container.div.span.text
+        qualifications.append(qualification)
 
-for container in specialism:
-    speciality = container.li.text
-    specialist_areas.append(speciality)    
-
-from pandas import ExcelWriter
-test_df = pd.DataFrame({'Name': names,
-'Qualifications': qualifications,
-'Specialist in:': specialist_areas})
-print(test_df.info())
+    for container in specialism:
+        speciality = container.li.text
+        specialist_areas.append(speciality)    
 
 
+    pageOfData = pd.DataFrame({'Name': names,
+    'Qualifications': qualifications,
+    'Specialist in:': specialist_areas})
+    print(pageOfData.info())
+
+    return pageOfData
+
+# URL without page
+firstUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist5=true'
+
+# set the allPages dataframe == the response from the first call to the GetVets function, which will return page 1
+allPages = getVets(firstUrl)
+
+# Loop the remaining pages, adding to the allPages dataframe
 for i in range(2,6):
+    pagedUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist5=true&p=' + str(i)
+    allPages = getVets(pagedUrl)
 
-        url = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist5=true&p=' + str(i)
-
-        response = get(url)
-
-        sleep(randint(1, 3))
-
-        elapsed_time = time() - start_time
-        print('Request: {}; Frequency: {} Requests/s;'.format(request_count, request_count / elapsed_time))
-        clear_output(wait=True)    
-        
-        html_soup = BeautifulSoup(response.text, 'lxml')
-
-        result_containers = html_soup.find_all('div', class_='item item--fav item--surgeon')
-        specialism = html_soup.find_all('div', class_='item-additional')
-
-        for container in result_containers:
-            name = container.div.h3.a.text
-            names.append(name)
-
-            qualification = container.div.span.text
-            qualifications.append(qualification)
-
-        for container in specialism:
-            speciality = container.li.text
-            specialist_areas.append(speciality)    
-        
-        from pandas import ExcelWriter
-        test_df = pd.DataFrame({'Name': names,
-        'Qualifications': qualifications,
-        'Specialist in:': specialist_areas})
-        print(test_df.info())
-    
+# Print to Excel - used a 'with' statement so that the onject is disposed of cleanly after it's scope is complete.... good memory hygene!  Nobody likes a dirty heap!
 with pd.ExcelWriter('beautiful_soup_output.xlsx') as writer:
-    test_df.to_excel(writer, 'Cardiologists')
+    allPages.to_excel(writer, 'Cardiologists')
     writer.save()
