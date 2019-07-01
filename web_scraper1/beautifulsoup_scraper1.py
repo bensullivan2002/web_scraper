@@ -54,17 +54,17 @@ def getVets(url):
     return pageOfData
 
 # URL without page
-firstUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist5=true'
+firstUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&advanced25=true&p='
 
 # set the allPages dataframe == the response from the first call to the GetVets function, which will return page 1
 allPages = getVets(firstUrl)
 
 # Loop the remaining pages, adding to the allPages dataframe
 for i in range(2,6):
-    pagedUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist5=true&p=' + str(i)
+    pagedUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&advanced25=true&p=' + str(i)
     allPages = getVets(pagedUrl)
 
-# Print to Excel - used a 'with' statement so that the onject is disposed of cleanly after it's scope is complete.... good memory hygene!  Nobody likes a dirty heap!
-with pd.ExcelWriter('beautiful_soup_output.xlsx') as writer:
+# Print to Excel - used a 'with' statement so that the object is disposed of cleanly after its scope is complete.... good memory hygiene! Nobody likes a dirty heap!
+with pd.ExcelWriter('uk_vet_cardiology_avps.xlsx') as writer:
     allPages.to_excel(writer, 'Cardiologists')
     writer.save()
