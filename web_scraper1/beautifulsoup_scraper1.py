@@ -60,11 +60,11 @@ firstUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filt
 allPages = getVets(firstUrl)
 
 # Loop the remaining pages, adding to the allPages dataframe
-for i in range(2,6):
-    pagedUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist5=true&p=' + str(i)
+for i in range(2,9):
+    pagedUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&specialist13=true&p=' + str(i)
     allPages = getVets(pagedUrl)
 
-# Print to Excel - used a 'with' statement so that the onject is disposed of cleanly after it's scope is complete.... good memory hygene!  Nobody likes a dirty heap!
+# Print to Excel - used a 'with' statement so that the onject is disposed of cleanly after its scope is complete.... good memory hygiene!  Nobody likes a dirty heap!
 with pd.ExcelWriter('uk_vdi_specialists') as writer:
     allPages.to_excel(writer, 'Cardiologists')
     writer.save()
