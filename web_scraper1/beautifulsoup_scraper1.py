@@ -65,6 +65,6 @@ allPages = getVets(firstUrl)
     #allPages = getVets(pagedUrl)
 
 # Print to Excel - used a 'with' statement so that the onject is disposed of cleanly after it's scope is complete.... good memory hygene!  Nobody likes a dirty heap!
-with pd.ExcelWriter('uk_sa_cardiology_avps') as writer:
+with pd.ExcelWriter('uk_sa_cardiology_avps.xlsx') as writer:
     allPages.to_excel(writer, 'Cardiologists')
     writer.save()
