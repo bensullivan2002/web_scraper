@@ -54,7 +54,7 @@ def getVets(url):
     return pageOfData
 
 # URL without page
-firstUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-keyword=&filter-searchtype=surgeon&advanced16=true#primary-navigation'
+firstUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&advanced27=true&p=2'
 
 # set the allPages dataframe == the response from the first call to the GetVets function, which will return page 1
 allPages = getVets(firstUrl)
@@ -65,6 +65,6 @@ allPages = getVets(firstUrl)
     #allPages = getVets(pagedUrl)
 
 # Print to Excel - used a 'with' statement so that the onject is disposed of cleanly after it's scope is complete.... good memory hygene!  Nobody likes a dirty heap!
-with pd.ExcelWriter('uk_sa_cardiology_avps') as writer:
+with pd.ExcelWriter('uk_vdi_avps') as writer:
     allPages.to_excel(writer, 'Cardiologists')
     writer.save()
