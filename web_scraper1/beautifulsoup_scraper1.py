@@ -54,7 +54,7 @@ def getVets(url):
     return pageOfData
 
 # URL without page
-firstUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&advanced27=true&p=2'
+firstUrl = 'https://findavet.rcvs.org.uk/find-a-vet-surgeon/?filter-choice=&filter-keyword=&filter-searchtype=surgeon&advanced27=true&p='
 
 # set the allPages dataframe == the response from the first call to the GetVets function, which will return page 1
 allPages = getVets(firstUrl)
